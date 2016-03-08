@@ -112,7 +112,7 @@ public class DetailActivity extends Activity {
 		filePath = getIntent().getExtras().getString("filePath");
 		previewCapturedImage();
 		btnUpload = (Button) findViewById(R.id.btnUpload);
-        upLoadServerUri = "http://dinustech.com/demoapp/laporgan/UploadToServer.php";
+        upLoadServerUri = "";
         
         gpsTracker = new GPSTracker(DetailActivity.this);
         latitude = gpsTracker.getLatitude();
